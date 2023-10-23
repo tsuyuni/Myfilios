@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F37BA4992FB2F46F8C722E4 /* Pods_Myfilios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D793DFAE347FAD4247BD38 /* Pods_Myfilios.framework */; };
+		E1BEF3AC2AE68C290031FC2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AB2AE68C290031FC2A /* AppDelegate.swift */; };
+		E1BEF3AE2AE68C290031FC2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AD2AE68C290031FC2A /* SceneDelegate.swift */; };
+		E1BEF3B02AE68C290031FC2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AF2AE68C290031FC2A /* ViewController.swift */; };
+		E1BEF3B32AE68C290031FC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3B12AE68C290031FC2A /* Main.storyboard */; };
+		E1BEF3B52AE68C2A0031FC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */; };
+		E1BEF3B82AE68C2A0031FC2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3B62AE68C2A0031FC2A /* LaunchScreen.storyboard */; };
+		E1BEF3C12AE68E7B0031FC2A /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3BF2AE68E7B0031FC2A /* RouteTableViewCell.swift */; };
+		E1BEF3C22AE68E7B0031FC2A /* RouteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3C02AE68E7B0031FC2A /* RouteTableViewCell.xib */; };
+		E1BEF3C42AE68EBF0031FC2A /* AddRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C32AE68EBF0031FC2A /* AddRouteViewController.swift */; };
+		E1BEF3C72AE691720031FC2A /* RouteTableViewCell+AddStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C52AE691720031FC2A /* RouteTableViewCell+AddStation.swift */; };
+		E1BEF3C82AE691720031FC2A /* RouteTableViewCell+AddStation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3C62AE691720031FC2A /* RouteTableViewCell+AddStation.xib */; };
+		E1BEF3CA2AE692FA0031FC2A /* AddStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C92AE692FA0031FC2A /* AddStationViewController.swift */; };
+		E1BEF3CC2AE7731D0031FC2A /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3CB2AE7731D0031FC2A /* StationTableViewCell.swift */; };
+		E1BEF3CE2AE7733B0031FC2A /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3CD2AE7733B0031FC2A /* StationTableViewCell.xib */; };
+		E1BEF3D02AE77E430031FC2A /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3CF2AE77E430031FC2A /* DummyData.swift */; };
+		E1BEF3D52AE79B200031FC2A /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3D32AE79B200031FC2A /* StoreCollectionViewCell.swift */; };
+		E1BEF3D62AE79B200031FC2A /* StoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D42AE79B200031FC2A /* StoreCollectionViewCell.xib */; };
+		E1BEF3D92AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3D72AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift */; };
+		E1BEF3DA2AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D82AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib */; };
+		E1BEF3DC2AE7A7290031FC2A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3DB2AE7A7290031FC2A /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFC75EC3C839EFDC3AE39C8 /* Pods-Myfilios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myfilios.release.xcconfig"; path = "Target Support Files/Pods-Myfilios/Pods-Myfilios.release.xcconfig"; sourceTree = "<group>"; };
+		5B1A79BF21153A257CF1382A /* Pods-Myfilios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Myfilios.debug.xcconfig"; path = "Target Support Files/Pods-Myfilios/Pods-Myfilios.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D793DFAE347FAD4247BD38 /* Pods_Myfilios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Myfilios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BEF3A82AE68C290031FC2A /* Myfilios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myfilios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BEF3AB2AE68C290031FC2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1BEF3AD2AE68C290031FC2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1BEF3AF2AE68C290031FC2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1BEF3B22AE68C290031FC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BEF3B72AE68C2A0031FC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1BEF3B92AE68C2A0031FC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BEF3BF2AE68E7B0031FC2A /* RouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
+		E1BEF3C02AE68E7B0031FC2A /* RouteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteTableViewCell.xib; sourceTree = "<group>"; };
+		E1BEF3C32AE68EBF0031FC2A /* AddRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRouteViewController.swift; sourceTree = "<group>"; };
+		E1BEF3C52AE691720031FC2A /* RouteTableViewCell+AddStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RouteTableViewCell+AddStation.swift"; sourceTree = "<group>"; };
+		E1BEF3C62AE691720031FC2A /* RouteTableViewCell+AddStation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "RouteTableViewCell+AddStation.xib"; sourceTree = "<group>"; };
+		E1BEF3C92AE692FA0031FC2A /* AddStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStationViewController.swift; sourceTree = "<group>"; };
+		E1BEF3CB2AE7731D0031FC2A /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		E1BEF3CD2AE7733B0031FC2A /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+		E1BEF3CF2AE77E430031FC2A /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		E1BEF3D32AE79B200031FC2A /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1BEF3D42AE79B200031FC2A /* StoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1BEF3D72AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1BEF3D82AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1BEF3DB2AE7A7290031FC2A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BEF3A52AE68C290031FC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F37BA4992FB2F46F8C722E4 /* Pods_Myfilios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A07B1787B75A1FAF77FA9BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B1A79BF21153A257CF1382A /* Pods-Myfilios.debug.xcconfig */,
+				1AFC75EC3C839EFDC3AE39C8 /* Pods-Myfilios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBEA9296A756C5572EF8379F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5D793DFAE347FAD4247BD38 /* Pods_Myfilios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1BEF39F2AE68C290031FC2A = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3AA2AE68C290031FC2A /* Myfilios */,
+				E1BEF3A92AE68C290031FC2A /* Products */,
+				6A07B1787B75A1FAF77FA9BE /* Pods */,
+				DBEA9296A756C5572EF8379F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BEF3A92AE68C290031FC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3A82AE68C290031FC2A /* Myfilios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BEF3AA2AE68C290031FC2A /* Myfilios */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3D72AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift */,
+				E1BEF3D82AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib */,
+				E1BEF3BF2AE68E7B0031FC2A /* RouteTableViewCell.swift */,
+				E1BEF3C02AE68E7B0031FC2A /* RouteTableViewCell.xib */,
+				E1BEF3AB2AE68C290031FC2A /* AppDelegate.swift */,
+				E1BEF3AD2AE68C290031FC2A /* SceneDelegate.swift */,
+				E1BEF3AF2AE68C290031FC2A /* ViewController.swift */,
+				E1BEF3C32AE68EBF0031FC2A /* AddRouteViewController.swift */,
+				E1BEF3C52AE691720031FC2A /* RouteTableViewCell+AddStation.swift */,
+				E1BEF3C62AE691720031FC2A /* RouteTableViewCell+AddStation.xib */,
+				E1BEF3B12AE68C290031FC2A /* Main.storyboard */,
+				E1BEF3CF2AE77E430031FC2A /* DummyData.swift */,
+				E1BEF3DB2AE7A7290031FC2A /* Models.swift */,
+				E1BEF3CB2AE7731D0031FC2A /* StationTableViewCell.swift */,
+				E1BEF3D32AE79B200031FC2A /* StoreCollectionViewCell.swift */,
+				E1BEF3D42AE79B200031FC2A /* StoreCollectionViewCell.xib */,
+				E1BEF3CD2AE7733B0031FC2A /* StationTableViewCell.xib */,
+				E1BEF3C92AE692FA0031FC2A /* AddStationViewController.swift */,
+				E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */,
+				E1BEF3B62AE68C2A0031FC2A /* LaunchScreen.storyboard */,
+				E1BEF3B92AE68C2A0031FC2A /* Info.plist */,
+			);
+			path = Myfilios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BEF3A72AE68C290031FC2A /* Myfilios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BEF3BC2AE68C2A0031FC2A /* Build configuration list for PBXNativeTarget "Myfilios" */;
+			buildPhases = (
+				2F0EEBF2C6625F46FFD72319 /* [CP] Check Pods Manifest.lock */,
+				E1BEF3A42AE68C290031FC2A /* Sources */,
+				E1BEF3A52AE68C290031FC2A /* Frameworks */,
+				E1BEF3A62AE68C290031FC2A /* Resources */,
+				9EE328B88AAB7E66D2781C3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myfilios;
+			productName = TeikikennaiStores;
+			productReference = E1BEF3A82AE68C290031FC2A /* Myfilios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BEF3A02AE68C290031FC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E1BEF3A72AE68C290031FC2A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E1BEF3A32AE68C290031FC2A /* Build configuration list for PBXProject "Myfilios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BEF39F2AE68C290031FC2A;
+			productRefGroup = E1BEF3A92AE68C290031FC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BEF3A72AE68C290031FC2A /* Myfilios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BEF3A62AE68C290031FC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BEF3B82AE68C2A0031FC2A /* LaunchScreen.storyboard in Resources */,
+				E1BEF3C22AE68E7B0031FC2A /* RouteTableViewCell.xib in Resources */,
+				E1BEF3B52AE68C2A0031FC2A /* Assets.xcassets in Resources */,
+				E1BEF3C82AE691720031FC2A /* RouteTableViewCell+AddStation.xib in Resources */,
+				E1BEF3DA2AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib in Resources */,
+				E1BEF3CE2AE7733B0031FC2A /* StationTableViewCell.xib in Resources */,
+				E1BEF3B32AE68C290031FC2A /* Main.storyboard in Resources */,
+				E1BEF3D62AE79B200031FC2A /* StoreCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0EEBF2C6625F46FFD72319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Myfilios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE328B88AAB7E66D2781C3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Myfilios/Pods-Myfilios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Myfilios/Pods-Myfilios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Myfilios/Pods-Myfilios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BEF3A42AE68C290031FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BEF3C72AE691720031FC2A /* RouteTableViewCell+AddStation.swift in Sources */,
+				E1BEF3CA2AE692FA0031FC2A /* AddStationViewController.swift in Sources */,
+				E1BEF3D52AE79B200031FC2A /* StoreCollectionViewCell.swift in Sources */,
+				E1BEF3DC2AE7A7290031FC2A /* Models.swift in Sources */,
+				E1BEF3D92AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift in Sources */,
+				E1BEF3CC2AE7731D0031FC2A /* StationTableViewCell.swift in Sources */,
+				E1BEF3D02AE77E430031FC2A /* DummyData.swift in Sources */,
+				E1BEF3B02AE68C290031FC2A /* ViewController.swift in Sources */,
+				E1BEF3C12AE68E7B0031FC2A /* RouteTableViewCell.swift in Sources */,
+				E1BEF3AC2AE68C290031FC2A /* AppDelegate.swift in Sources */,
+				E1BEF3C42AE68EBF0031FC2A /* AddRouteViewController.swift in Sources */,
+				E1BEF3AE2AE68C290031FC2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1BEF3B12AE68C290031FC2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BEF3B22AE68C290031FC2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1BEF3B62AE68C2A0031FC2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BEF3B72AE68C2A0031FC2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1BEF3BA2AE68C2A0031FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1BEF3BB2AE68C2A0031FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1BEF3BD2AE68C2A0031FC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1A79BF21153A257CF1382A /* Pods-Myfilios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XX6PGKBH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Myfilios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = works.tsuyu.Myfilios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1BEF3BE2AE68C2A0031FC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFC75EC3C839EFDC3AE39C8 /* Pods-Myfilios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XX6PGKBH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Myfilios/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = works.tsuyu.Myfilios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BEF3A32AE68C290031FC2A /* Build configuration list for PBXProject "Myfilios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BEF3BA2AE68C2A0031FC2A /* Debug */,
+				E1BEF3BB2AE68C2A0031FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BEF3BC2AE68C2A0031FC2A /* Build configuration list for PBXNativeTarget "Myfilios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BEF3BD2AE68C2A0031FC2A /* Debug */,
+				E1BEF3BE2AE68C2A0031FC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BEF3A02AE68C290031FC2A /* Project object */;
+}
