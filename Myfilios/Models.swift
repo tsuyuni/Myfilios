@@ -11,4 +11,9 @@ import RealmSwift
 class Store: Object {
     @Persisted(primaryKey: true) var id: ObjectId!
     @Persisted var name: String!
+    
+    convenience init(name: String!) {
+        self.init()
+        self.name = name
+    }
 }

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class HomeViewController: UIViewController {
     
@@ -13,6 +14,15 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        do {
+            let realm = try Realm()
+            let stores = realm.objects(Store.self)
+            print(stores)
+            
+        } catch {
+            print("データの読み込みに失敗しました。\n エラー内容：\(error.localizedDescription)")
+        }
         
         tableView.register(UINib(nibName: "Station", bundle: nil), forCellReuseIdentifier: "cell")
     }
@@ -42,7 +52,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
 
 extension HomeViewController: StationTableViewCellDelegate {
     func onTapAddStoreButton(cell: UITableViewCell) {
-        guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "addStore") else { return }
+        guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "newStore") else { return }
         self.present(nextVC, animated: true)
     }
 }

@@ -29,6 +29,7 @@
 		E1BEF3DA2AE7A0AB0031FC2A /* AddStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D82AE7A0AB0031FC2A /* AddStore.xib */; };
 		E1BEF3DC2AE7A7290031FC2A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3DB2AE7A7290031FC2A /* Models.swift */; };
 		E1BEF3DF2AE7B4580031FC2A /* icon_n05.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3DE2AE7B4580031FC2A /* icon_n05.png */; };
+		E1BEF3E42AE7BBF20031FC2A /* NewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3E32AE7BBF20031FC2A /* NewStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E1BEF3D82AE7A0AB0031FC2A /* AddStore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStore.xib; sourceTree = "<group>"; };
 		E1BEF3DB2AE7A7290031FC2A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		E1BEF3DE2AE7B4580031FC2A /* icon_n05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_n05.png; sourceTree = "<group>"; };
+		E1BEF3E32AE7BBF20031FC2A /* NewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewStore.swift; path = "/Users/meiyu/Documents/swift-projects/Myfilios/Myfilios/ViewControllers/NewStore.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				E1BEF3AF2AE68C290031FC2A /* Home.swift */,
 				E1BEF3C92AE692FA0031FC2A /* NewStation.swift */,
 				E1BEF3C32AE68EBF0031FC2A /* NewRoute.swift */,
+				E1BEF3E32AE7BBF20031FC2A /* NewStore.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BEF3E42AE7BBF20031FC2A /* NewStore.swift in Sources */,
 				E1BEF3C72AE691720031FC2A /* AddStation.swift in Sources */,
 				E1BEF3CA2AE692FA0031FC2A /* NewStation.swift in Sources */,
 				E1BEF3D52AE79B200031FC2A /* Store.swift in Sources */,
