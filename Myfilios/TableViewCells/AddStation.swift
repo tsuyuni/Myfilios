@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RouteTableViewCell_AddStation: UITableViewCell {
+class AddStationTableViewCell: UITableViewCell {
     
     @IBOutlet weak var addButton: UIButton!
 

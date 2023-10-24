@@ -10,24 +10,25 @@
 		7F37BA4992FB2F46F8C722E4 /* Pods_Myfilios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D793DFAE347FAD4247BD38 /* Pods_Myfilios.framework */; };
 		E1BEF3AC2AE68C290031FC2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AB2AE68C290031FC2A /* AppDelegate.swift */; };
 		E1BEF3AE2AE68C290031FC2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AD2AE68C290031FC2A /* SceneDelegate.swift */; };
-		E1BEF3B02AE68C290031FC2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AF2AE68C290031FC2A /* ViewController.swift */; };
+		E1BEF3B02AE68C290031FC2A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3AF2AE68C290031FC2A /* Home.swift */; };
 		E1BEF3B32AE68C290031FC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3B12AE68C290031FC2A /* Main.storyboard */; };
 		E1BEF3B52AE68C2A0031FC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */; };
 		E1BEF3B82AE68C2A0031FC2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3B62AE68C2A0031FC2A /* LaunchScreen.storyboard */; };
-		E1BEF3C12AE68E7B0031FC2A /* RouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3BF2AE68E7B0031FC2A /* RouteTableViewCell.swift */; };
-		E1BEF3C22AE68E7B0031FC2A /* RouteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3C02AE68E7B0031FC2A /* RouteTableViewCell.xib */; };
-		E1BEF3C42AE68EBF0031FC2A /* AddRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C32AE68EBF0031FC2A /* AddRouteViewController.swift */; };
-		E1BEF3C72AE691720031FC2A /* RouteTableViewCell+AddStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C52AE691720031FC2A /* RouteTableViewCell+AddStation.swift */; };
-		E1BEF3C82AE691720031FC2A /* RouteTableViewCell+AddStation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3C62AE691720031FC2A /* RouteTableViewCell+AddStation.xib */; };
-		E1BEF3CA2AE692FA0031FC2A /* AddStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C92AE692FA0031FC2A /* AddStationViewController.swift */; };
-		E1BEF3CC2AE7731D0031FC2A /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3CB2AE7731D0031FC2A /* StationTableViewCell.swift */; };
-		E1BEF3CE2AE7733B0031FC2A /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3CD2AE7733B0031FC2A /* StationTableViewCell.xib */; };
+		E1BEF3C12AE68E7B0031FC2A /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3BF2AE68E7B0031FC2A /* Route.swift */; };
+		E1BEF3C22AE68E7B0031FC2A /* Route.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3C02AE68E7B0031FC2A /* Route.xib */; };
+		E1BEF3C42AE68EBF0031FC2A /* NewRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C32AE68EBF0031FC2A /* NewRoute.swift */; };
+		E1BEF3C72AE691720031FC2A /* AddStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C52AE691720031FC2A /* AddStation.swift */; };
+		E1BEF3C82AE691720031FC2A /* AddStation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3C62AE691720031FC2A /* AddStation.xib */; };
+		E1BEF3CA2AE692FA0031FC2A /* NewStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3C92AE692FA0031FC2A /* NewStation.swift */; };
+		E1BEF3CC2AE7731D0031FC2A /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3CB2AE7731D0031FC2A /* Station.swift */; };
+		E1BEF3CE2AE7733B0031FC2A /* Station.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3CD2AE7733B0031FC2A /* Station.xib */; };
 		E1BEF3D02AE77E430031FC2A /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3CF2AE77E430031FC2A /* DummyData.swift */; };
-		E1BEF3D52AE79B200031FC2A /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3D32AE79B200031FC2A /* StoreCollectionViewCell.swift */; };
-		E1BEF3D62AE79B200031FC2A /* StoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D42AE79B200031FC2A /* StoreCollectionViewCell.xib */; };
-		E1BEF3D92AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3D72AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift */; };
-		E1BEF3DA2AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D82AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib */; };
+		E1BEF3D52AE79B200031FC2A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3D32AE79B200031FC2A /* Store.swift */; };
+		E1BEF3D62AE79B200031FC2A /* Store.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D42AE79B200031FC2A /* Store.xib */; };
+		E1BEF3D92AE7A0AB0031FC2A /* AddStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3D72AE7A0AB0031FC2A /* AddStore.swift */; };
+		E1BEF3DA2AE7A0AB0031FC2A /* AddStore.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3D82AE7A0AB0031FC2A /* AddStore.xib */; };
 		E1BEF3DC2AE7A7290031FC2A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BEF3DB2AE7A7290031FC2A /* Models.swift */; };
+		E1BEF3DF2AE7B4580031FC2A /* icon_n05.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BEF3DE2AE7B4580031FC2A /* icon_n05.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,25 +38,26 @@
 		E1BEF3A82AE68C290031FC2A /* Myfilios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myfilios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BEF3AB2AE68C290031FC2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1BEF3AD2AE68C290031FC2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1BEF3AF2AE68C290031FC2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1BEF3AF2AE68C290031FC2A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		E1BEF3B22AE68C290031FC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BEF3B72AE68C2A0031FC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1BEF3B92AE68C2A0031FC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1BEF3BF2AE68E7B0031FC2A /* RouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewCell.swift; sourceTree = "<group>"; };
-		E1BEF3C02AE68E7B0031FC2A /* RouteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteTableViewCell.xib; sourceTree = "<group>"; };
-		E1BEF3C32AE68EBF0031FC2A /* AddRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRouteViewController.swift; sourceTree = "<group>"; };
-		E1BEF3C52AE691720031FC2A /* RouteTableViewCell+AddStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RouteTableViewCell+AddStation.swift"; sourceTree = "<group>"; };
-		E1BEF3C62AE691720031FC2A /* RouteTableViewCell+AddStation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "RouteTableViewCell+AddStation.xib"; sourceTree = "<group>"; };
-		E1BEF3C92AE692FA0031FC2A /* AddStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStationViewController.swift; sourceTree = "<group>"; };
-		E1BEF3CB2AE7731D0031FC2A /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
-		E1BEF3CD2AE7733B0031FC2A /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+		E1BEF3BF2AE68E7B0031FC2A /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		E1BEF3C02AE68E7B0031FC2A /* Route.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Route.xib; sourceTree = "<group>"; };
+		E1BEF3C32AE68EBF0031FC2A /* NewRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRoute.swift; sourceTree = "<group>"; };
+		E1BEF3C52AE691720031FC2A /* AddStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStation.swift; sourceTree = "<group>"; };
+		E1BEF3C62AE691720031FC2A /* AddStation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStation.xib; sourceTree = "<group>"; };
+		E1BEF3C92AE692FA0031FC2A /* NewStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStation.swift; sourceTree = "<group>"; };
+		E1BEF3CB2AE7731D0031FC2A /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		E1BEF3CD2AE7733B0031FC2A /* Station.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Station.xib; sourceTree = "<group>"; };
 		E1BEF3CF2AE77E430031FC2A /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
-		E1BEF3D32AE79B200031FC2A /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
-		E1BEF3D42AE79B200031FC2A /* StoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCollectionViewCell.xib; sourceTree = "<group>"; };
-		E1BEF3D72AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoreCollectionViewCell.swift; sourceTree = "<group>"; };
-		E1BEF3D82AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		E1BEF3D32AE79B200031FC2A /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		E1BEF3D42AE79B200031FC2A /* Store.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Store.xib; sourceTree = "<group>"; };
+		E1BEF3D72AE7A0AB0031FC2A /* AddStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStore.swift; sourceTree = "<group>"; };
+		E1BEF3D82AE7A0AB0031FC2A /* AddStore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddStore.xib; sourceTree = "<group>"; };
 		E1BEF3DB2AE7A7290031FC2A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E1BEF3DE2AE7B4580031FC2A /* icon_n05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_n05.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,29 +110,62 @@
 		E1BEF3AA2AE68C290031FC2A /* Myfilios */ = {
 			isa = PBXGroup;
 			children = (
-				E1BEF3D72AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift */,
-				E1BEF3D82AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib */,
-				E1BEF3BF2AE68E7B0031FC2A /* RouteTableViewCell.swift */,
-				E1BEF3C02AE68E7B0031FC2A /* RouteTableViewCell.xib */,
 				E1BEF3AB2AE68C290031FC2A /* AppDelegate.swift */,
 				E1BEF3AD2AE68C290031FC2A /* SceneDelegate.swift */,
-				E1BEF3AF2AE68C290031FC2A /* ViewController.swift */,
-				E1BEF3C32AE68EBF0031FC2A /* AddRouteViewController.swift */,
-				E1BEF3C52AE691720031FC2A /* RouteTableViewCell+AddStation.swift */,
-				E1BEF3C62AE691720031FC2A /* RouteTableViewCell+AddStation.xib */,
 				E1BEF3B12AE68C290031FC2A /* Main.storyboard */,
+				E1BEF3B62AE68C2A0031FC2A /* LaunchScreen.storyboard */,
+				E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */,
+				E1BEF3B92AE68C2A0031FC2A /* Info.plist */,
+				E1BEF3E22AE7B9560031FC2A /* ViewControllers */,
+				E1BEF3E12AE7B92E0031FC2A /* CollectionViewCells */,
+				E1BEF3E02AE7B9070031FC2A /* TableViewCells */,
+				E1BEF3DD2AE7B4580031FC2A /* StationIcons */,
 				E1BEF3CF2AE77E430031FC2A /* DummyData.swift */,
 				E1BEF3DB2AE7A7290031FC2A /* Models.swift */,
-				E1BEF3CB2AE7731D0031FC2A /* StationTableViewCell.swift */,
-				E1BEF3D32AE79B200031FC2A /* StoreCollectionViewCell.swift */,
-				E1BEF3D42AE79B200031FC2A /* StoreCollectionViewCell.xib */,
-				E1BEF3CD2AE7733B0031FC2A /* StationTableViewCell.xib */,
-				E1BEF3C92AE692FA0031FC2A /* AddStationViewController.swift */,
-				E1BEF3B42AE68C2A0031FC2A /* Assets.xcassets */,
-				E1BEF3B62AE68C2A0031FC2A /* LaunchScreen.storyboard */,
-				E1BEF3B92AE68C2A0031FC2A /* Info.plist */,
 			);
 			path = Myfilios;
+			sourceTree = "<group>";
+		};
+		E1BEF3DD2AE7B4580031FC2A /* StationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3DE2AE7B4580031FC2A /* icon_n05.png */,
+			);
+			path = StationIcons;
+			sourceTree = "<group>";
+		};
+		E1BEF3E02AE7B9070031FC2A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3BF2AE68E7B0031FC2A /* Route.swift */,
+				E1BEF3C02AE68E7B0031FC2A /* Route.xib */,
+				E1BEF3C52AE691720031FC2A /* AddStation.swift */,
+				E1BEF3C62AE691720031FC2A /* AddStation.xib */,
+				E1BEF3CB2AE7731D0031FC2A /* Station.swift */,
+				E1BEF3CD2AE7733B0031FC2A /* Station.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E1BEF3E12AE7B92E0031FC2A /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3D72AE7A0AB0031FC2A /* AddStore.swift */,
+				E1BEF3D82AE7A0AB0031FC2A /* AddStore.xib */,
+				E1BEF3D32AE79B200031FC2A /* Store.swift */,
+				E1BEF3D42AE79B200031FC2A /* Store.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		E1BEF3E22AE7B9560031FC2A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEF3AF2AE68C290031FC2A /* Home.swift */,
+				E1BEF3C92AE692FA0031FC2A /* NewStation.swift */,
+				E1BEF3C32AE68EBF0031FC2A /* NewRoute.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,13 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BEF3B82AE68C2A0031FC2A /* LaunchScreen.storyboard in Resources */,
-				E1BEF3C22AE68E7B0031FC2A /* RouteTableViewCell.xib in Resources */,
+				E1BEF3DF2AE7B4580031FC2A /* icon_n05.png in Resources */,
+				E1BEF3C22AE68E7B0031FC2A /* Route.xib in Resources */,
 				E1BEF3B52AE68C2A0031FC2A /* Assets.xcassets in Resources */,
-				E1BEF3C82AE691720031FC2A /* RouteTableViewCell+AddStation.xib in Resources */,
-				E1BEF3DA2AE7A0AB0031FC2A /* AddStoreCollectionViewCell.xib in Resources */,
-				E1BEF3CE2AE7733B0031FC2A /* StationTableViewCell.xib in Resources */,
+				E1BEF3C82AE691720031FC2A /* AddStation.xib in Resources */,
+				E1BEF3DA2AE7A0AB0031FC2A /* AddStore.xib in Resources */,
+				E1BEF3CE2AE7733B0031FC2A /* Station.xib in Resources */,
 				E1BEF3B32AE68C290031FC2A /* Main.storyboard in Resources */,
-				E1BEF3D62AE79B200031FC2A /* StoreCollectionViewCell.xib in Resources */,
+				E1BEF3D62AE79B200031FC2A /* Store.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,17 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BEF3C72AE691720031FC2A /* RouteTableViewCell+AddStation.swift in Sources */,
-				E1BEF3CA2AE692FA0031FC2A /* AddStationViewController.swift in Sources */,
-				E1BEF3D52AE79B200031FC2A /* StoreCollectionViewCell.swift in Sources */,
+				E1BEF3C72AE691720031FC2A /* AddStation.swift in Sources */,
+				E1BEF3CA2AE692FA0031FC2A /* NewStation.swift in Sources */,
+				E1BEF3D52AE79B200031FC2A /* Store.swift in Sources */,
 				E1BEF3DC2AE7A7290031FC2A /* Models.swift in Sources */,
-				E1BEF3D92AE7A0AB0031FC2A /* AddStoreCollectionViewCell.swift in Sources */,
-				E1BEF3CC2AE7731D0031FC2A /* StationTableViewCell.swift in Sources */,
+				E1BEF3D92AE7A0AB0031FC2A /* AddStore.swift in Sources */,
+				E1BEF3CC2AE7731D0031FC2A /* Station.swift in Sources */,
 				E1BEF3D02AE77E430031FC2A /* DummyData.swift in Sources */,
-				E1BEF3B02AE68C290031FC2A /* ViewController.swift in Sources */,
-				E1BEF3C12AE68E7B0031FC2A /* RouteTableViewCell.swift in Sources */,
+				E1BEF3B02AE68C290031FC2A /* Home.swift in Sources */,
+				E1BEF3C12AE68E7B0031FC2A /* Route.swift in Sources */,
 				E1BEF3AC2AE68C290031FC2A /* AppDelegate.swift in Sources */,
-				E1BEF3C42AE68EBF0031FC2A /* AddRouteViewController.swift in Sources */,
+				E1BEF3C42AE68EBF0031FC2A /* NewRoute.swift in Sources */,
 				E1BEF3AE2AE68C290031FC2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

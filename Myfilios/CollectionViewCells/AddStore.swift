@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol AddStoreCollectionViewCellDelegate {
-    func onTapAddButton(cell: UICollectionViewCell)
-}
-
 class AddStoreCollectionViewCell: UICollectionViewCell {
     
     var delegate: AddStoreCollectionViewCellDelegate!
@@ -23,4 +19,8 @@ class AddStoreCollectionViewCell: UICollectionViewCell {
     @IBAction func addStore() {
         delegate.onTapAddButton(cell: self)
     }
+}
+
+protocol AddStoreCollectionViewCellDelegate {
+    func onTapAddButton(cell: UICollectionViewCell)
 }

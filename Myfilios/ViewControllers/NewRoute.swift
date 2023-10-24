@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AddRouteViewController: UIViewController {
+class NewRouteViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
@@ -19,7 +19,7 @@ class AddRouteViewController: UIViewController {
     }
 }
 
-extension AddRouteViewController: UITableViewDataSource, UITableViewDelegate {
+extension NewRouteViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch (section) {

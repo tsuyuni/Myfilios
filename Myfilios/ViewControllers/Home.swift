@@ -7,14 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.register(UINib(nibName: "StationTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        tableView.register(UINib(nibName: "Station", bundle: nil), forCellReuseIdentifier: "cell")
     }
     
     @IBAction func AddRoute() {
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDataSource, UITableViewDelegate {
+extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return DummyData.stations.count
     }
@@ -34,9 +34,13 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         cell.delegate = self
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 180
+    }
 }
 
-extension ViewController: StationTableViewCellDelegate {
+extension HomeViewController: StationTableViewCellDelegate {
     func onTapAddStoreButton(cell: UITableViewCell) {
         guard let nextVC = storyboard?.instantiateViewController(withIdentifier: "addStore") else { return }
         self.present(nextVC, animated: true)

@@ -21,8 +21,8 @@ class StationTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        storeCollectionView.register(UINib(nibName: "StoreCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
-        storeCollectionView.register(UINib(nibName: "AddStoreCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "addCell")
+        storeCollectionView.register(UINib(nibName: "Store", bundle: nil), forCellWithReuseIdentifier: "cell")
+        storeCollectionView.register(UINib(nibName: "AddStore", bundle: nil), forCellWithReuseIdentifier: "addCell")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
