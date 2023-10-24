@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol StationTableViewCellDelegate {
-    func onTapAddStoreButton(cell: UITableViewCell)
-}
-
 class StationTableViewCell: UITableViewCell {
     
     @IBOutlet weak var stationLabel: UILabel!
@@ -29,6 +25,10 @@ class StationTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
     }
+}
+
+protocol StationTableViewCellDelegate {
+    func onTapAddStoreButton(cell: UITableViewCell)
 }
 
 extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {

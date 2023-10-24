@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  TeikikennaiStores
+//  HomeViewController.swift
+//  Myfilios
 //
 //  Created by Yuri Tsuchikawa on 2023/10/23.
 //
