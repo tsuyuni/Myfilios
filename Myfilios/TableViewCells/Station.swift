@@ -12,10 +12,15 @@ class StationTableViewCell: UITableViewCell {
     @IBOutlet weak var stationLabel: UILabel!
     @IBOutlet weak var storeCollectionView: UICollectionView!
     
+    var station: Station!
+    var stores: [Store] = []
+    
     var delegate: StationTableViewCellDelegate!
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        print("station:\(station)\nstores\(stores)")
         
         storeCollectionView.register(UINib(nibName: "Store", bundle: nil), forCellWithReuseIdentifier: "cell")
         storeCollectionView.register(UINib(nibName: "AddStore", bundle: nil), forCellWithReuseIdentifier: "addCell")
@@ -28,13 +33,13 @@ class StationTableViewCell: UITableViewCell {
 }
 
 protocol StationTableViewCellDelegate {
-    func onTapAddStoreButton(cell: UITableViewCell)
+    func onTapAddStoreButton(cell: UITableViewCell, station: Station)
 }
 
 extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch (section) {
-        case 0: return 10
+        case 0: return stores.count
         case 1: return 1
         default: return 0
         }
@@ -47,6 +52,7 @@ extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDele
             return cell
         case 1:
             let cell = storeCollectionView.dequeueReusableCell(withReuseIdentifier: "addCell", for: indexPath) as! AddStoreCollectionViewCell
+            cell.station = station
             cell.delegate = self
             return cell
         default: return UICollectionViewCell()
@@ -59,7 +65,7 @@ extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDele
 }
 
 extension StationTableViewCell: AddStoreCollectionViewCellDelegate {
-    func onTapAddButton(cell: UICollectionViewCell) {
-        delegate.onTapAddStoreButton(cell: self)
+    func onTapAddButton(cell: UICollectionViewCell, station: Station) {
+        delegate.onTapAddStoreButton(cell: self, station: station)
     }
 }

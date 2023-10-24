@@ -10,6 +10,7 @@ import UIKit
 class AddStoreCollectionViewCell: UICollectionViewCell {
     
     var delegate: AddStoreCollectionViewCellDelegate!
+    var station: Station!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -17,10 +18,10 @@ class AddStoreCollectionViewCell: UICollectionViewCell {
     }
     
     @IBAction func addStore() {
-        delegate.onTapAddButton(cell: self)
+        delegate.onTapAddButton(cell: self, station: station)
     }
 }
 
 protocol AddStoreCollectionViewCellDelegate {
-    func onTapAddButton(cell: UICollectionViewCell)
+    func onTapAddButton(cell: UICollectionViewCell, station: Station)
 }
