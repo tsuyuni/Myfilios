@@ -23,9 +23,7 @@ class NewStoreViewController: UIViewController {
         do {
             let realm = try Realm()
             try realm.write {
-                print(station)
                 station.addStore(name: nameField.text ?? "")
-                print(station)
                 realm.add(station, update: .modified)
             }
             print(realm.objects(Station.self))

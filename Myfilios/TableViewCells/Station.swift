@@ -20,8 +20,6 @@ class StationTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        print("station:\(station)\nstores\(stores)")
-        
         storeCollectionView.register(UINib(nibName: "Store", bundle: nil), forCellWithReuseIdentifier: "cell")
         storeCollectionView.register(UINib(nibName: "AddStore", bundle: nil), forCellWithReuseIdentifier: "addCell")
     }
@@ -37,6 +35,7 @@ protocol StationTableViewCellDelegate {
 }
 
 extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         switch (section) {
         case 0: return stores.count
@@ -49,6 +48,9 @@ extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDele
         switch (indexPath.section) {
         case 0:
             let cell = storeCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! StoreCollectionViewCell
+            cell.nameLabel.text = stores[indexPath.row].name
+            cell.setNeedsLayout()
+            cell.layoutIfNeeded()
             return cell
         case 1:
             let cell = storeCollectionView.dequeueReusableCell(withReuseIdentifier: "addCell", for: indexPath) as! AddStoreCollectionViewCell
@@ -61,6 +63,10 @@ extension StationTableViewCell: UICollectionViewDataSource, UICollectionViewDele
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return .init(width: collectionView.bounds.width / 3, height:collectionView.bounds.height)
     }
 }
 
